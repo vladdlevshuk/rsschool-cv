@@ -71,6 +71,7 @@ _______________
 
 ## **Education:**
 The Rolling Scopes «JavaScript/Front-end. Stage 0»
+
 _______________
 
 ## **Languages:**
