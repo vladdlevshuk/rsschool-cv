@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=PT+Sans&display=swap');
+
+:root {
+    --sapphire-blue: #222B39;
+    --sky-blue: #72BDD8;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sides {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.4);
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+.container .left-side {
+    position: relative;
+    background: var(--sapphire-blue);
+    padding: 40px;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+header img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+header h1 {
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 1000;
+    line-height: 1.4em;
+    letter-spacing: 5px;
+}
+
+main h2 {
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin-top: 25px;
+    letter-spacing: 0px;
+}
+
+.phone, .mail {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main li {
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    position: relative;
+    margin: 10px 0;
+}
+
+.contacts ul {
+    list-style-type: none;
+    text-align: left-side;
+    padding-left: 0;
+}
+
+.contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 5px;
+    
+}
+
+.language-name {
+    color: var(--sky-blue);
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.languages ul li p {
+    margin-top: 0px;
+}
+
+.skills ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.projects ul li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: var(--sky-blue);
+}
+
+a:hover {
+    color: var(--sky-blue);
+}
+
+.container .right-side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+aside h2 {
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.4em;
+    margin-top: 25px;
+    border-bottom: 2px solid var(--sky-blue);
+}
+
+aside p {
+    font-family: 'Cabin', sans-serif;
+}
+
+.education p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.courses-link {
+    text-decoration: none;
+    color:black;
+}
+
+.courses-link:visited {
+    color:black;
+}
+
+.courses-link:hover {
+    color: var(--sky-blue);
+}
+
+.code-example pre {
+    margin-top: 44.4px;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.code-example pre code {
+    vertical-align: middle;
+}
+
+footer {
+    font-family: 'Cabin', sans-serif;
+    position: relative;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    background: var(--sky-blue);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+footer .github-icon {
+    margin-left: 30px;
+}
+footer .rsschool-icon {
+    margin-right: 30px;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-size: 1.2rem;
+}
