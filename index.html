@@ -121,11 +121,11 @@
           class Solution {
             public:
                   vector&lt;int&gt;twoSum(vector&lt;int&gt;&amp;nums, int target) {
-                    
+
                     vector&lt;int&gt;numbers
-      
-                    for (int i=0; i&lt;nums.size(); i++) { 
-                        for (int j=i+1; j&lt;nums.size(); j++) { 
+
+                    for (int i=0; i&lt;nums.size(); i++) {
+                        for (int j=i+1; j&lt;nums.size(); j++) {
                             if(nums[i] + nums[j] == target) {
                                 numbers.push_back(i);
                                 numbers.push_back(j);
