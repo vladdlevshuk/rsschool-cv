@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sides">
+          <div class="left-side">
+            <header>
+              <img src="./assets/img/avatar.jpg" alt="Avatar" width="200" height="200">
+              <h1>Vlad Levshuk</h1>
+            </header>
+            <main>
+              <section class="contacts">
+                <h2>Contacts</h2>
+                  <ul>
+                    <li>
+                      <img src="./assets/img/phone.png" alt="Phone Icon" width="30" height="30">
+                      <a class="phone" href="tel:+375333553994">+375&nbsp;(33)&nbsp;355&#8209;39&#8209;94</a>
+                    </li>
+                    <li>
+                      <img src="./assets/img/email.png" alt="Email Icon" width="30" height="30">
+                      <a class="mail" href="mailto:vlad1levshuk@gmail.com">vlad1levshuk@gmail.com</a>
+                    </li>
+                    <li>
+                      <img src="./assets/img/telegram.png" alt="Telegram Icon" width="30" height="30">
+                      <p>@vladdlevshuk</p>
+                    </li>
+                  </ul>
+              </section>
+              <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                  <li>JavaScript Basics</li>
+                  <li>HTML5, CSS3</li>
+                  <li>Git, GitHub</li>
+                </ul>
+              </section>
+              <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                  <li>
+                    <p class="language-name">English</p>
+                    <p>Pre-Intermediate</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Russian</p>
+                    <p>Native</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Belarusian</p>
+                    <p>Intermediate</p>
+                  </li>
+                </ul>
+              </section>
+              <section class="projects">
+                <h2>Projects</h2>
+                <ul>
+                  <li>
+                    <a href="https://vladdlevshuk.github.io/Brooklyn-Public-Library/">
+                      Brooklyn Public Library
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://vladdlevshuk.github.io/Image-Gallery/">
+                      Image Gallery
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://vladdlevshuk.github.io/JS-Audio-Player/">
+                      Audio Player
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </main>
+          </div>
+          <aside class="right-side">
+            <section class="about">
+              <h2>About Myself</h2>
+              <p>
+                Hello! My name is Vlad, and I am currently a third-year student at BSUIR. I am passionate about programming, video and photo editing. I’m excited to share that I’ve successfully completed the preparatory course, RS School Stage 0, which has equipped me with essential skills for my academic and professional journey.
+              </p>
+              <p>
+                In my free time, I enjoy spending quality moments with loved ones, playing computer games, listening to music, and watching movies or series. These activities not only provide me with relaxation but also foster my personal growth and creativity.
+              </p>
+              <p>
+                Looking ahead, I’m enthusiastic about the opportunities that await me, and I’m committed to further developing my skills and knowledge throughout my academic journey. My completion of RS School Stage 0 has strengthened my foundation and readiness to excel in my chosen field, and I’m eager to apply this knowledge in my studies and future endeavors.
+              </p>
+            </section>
+            <section class="education">
+              <h2>Education</h2>
+              <p><strong>Belarusian State University of Informatics and Radioelectronics</strong></p>
+              <p>Faculty of Information Technologies and Control</p>
+              <p>Years: 2021 - 2025</p>
+              <p>Specialization: Automated Information Processing Systems</p>
+              <br>
+              <p><strong>The Rolling Scopes</strong></p>
+              <p><a class="courses-link" href="https://app.rs.school/certificate/l7t9e8fg">JavaScript/Front-end. Stage 0</a></p>
+            </section>
+            <section class="code-example">
+              <h2>Code Example</h2>
+              <p>
+                <strong>Two Sum from LeetCode:</strong>
+                Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+                You may assume that each input would have exactly one solution, and you may not use the same element twice.
+                You can return the answer in any order.
+              </p>
+              <pre>
+                <code>
+          class Solution {
+            public:
+                  vector&lt;int&gt;twoSum(vector&lt;int&gt;&amp;nums, int target) {
+
+                    vector&lt;int&gt;numbers
+
+                    for (int i=0; i&lt;nums.size(); i++) {
+                        for (int j=i+1; j&lt;nums.size(); j++) {
+                            if(nums[i] + nums[j] == target) {
+                                numbers.push_back(i);
+                                numbers.push_back(j);
+                                break;
+                            }
+                        }
+                    }
+                    return numbers;
+                }
+            };
+                </code>
+              </pre>
+            </section>
+          </aside>
+        </div>
+        <footer>
+          <a class="my-github" href="https://github.com/vladdlevshuk">
+            <img class="github-icon" src="./assets/img/github.svg" alt="Github Icon" width="30" height="30">
+          </a>
+          <p>© 2023</p>
+          <a href="https://rs.school/js">
+            <img class="rsschool-icon" src="./assets/img/rsschool.svg" alt="RS Icon" width="73" height="26">
+          </a>
+        </footer>
+      </div>
+</body>
+</html>
