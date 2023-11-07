@@ -20,3 +20,17 @@ Hello! My name is Vlad, and I am currently a third-year student at BSUIR. I am p
 In my free time, I enjoy spending quality moments with loved ones, playing computer games, listening to music, and watching movies or series. These activities not only provide me with relaxation but also foster my personal growth and creativity.
 
 Looking ahead, I'm enthusiastic about the opportunities that await me, and I'm committed to further developing my skills and knowledge throughout my academic journey. My completion of RS School Stage 0 has strengthened my foundation and readiness to excel in my chosen field, and I'm eager to apply this knowledge in my studies and future endeavors.
+
+_______________
+
+## **Skills and Proficiency:**
+- JavaScript Basics
+- HTML5, CSS3
+- Git, GitHub
+
+_______________
+
+## **Work examples:**
+- [Brooklyn Public Library](https://vladdlevshuk.github.io/Brooklyn-Public-Library/)
+- [Image Gallery](https://vladdlevshuk.github.io/Image-Gallery/)
+- [Audio Player](https://vladdlevshuk.github.io/JS-Audio-Player/)
