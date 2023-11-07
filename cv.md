@@ -30,19 +30,6 @@ _______________
 
 _______________
 
-## **Work examples:**
-- [Brooklyn Public Library](https://vladdlevshuk.github.io/Brooklyn-Public-Library/)
-- [Image Gallery](https://vladdlevshuk.github.io/Image-Gallery/)
-- [Audio Player](https://vladdlevshuk.github.io/JS-Audio-Player/)
-
-_______________
-
-## **Languages:**
-- Russian - Native
-- Belarussian -  Intermediate
-- English -  Pre-Intermediate
-_______________
-
 ## **Code example:**
 **Two Sum from LeetCode:**
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
@@ -74,3 +61,19 @@ public:
 ```
 
 _______________
+
+## **Work examples:**
+- [Brooklyn Public Library](https://vladdlevshuk.github.io/Brooklyn-Public-Library/)
+- [Image Gallery](https://vladdlevshuk.github.io/Image-Gallery/)
+- [Audio Player](https://vladdlevshuk.github.io/JS-Audio-Player/)
+
+_______________
+
+## **Education:**
+The Rolling Scopes «JavaScript/Front-end. Stage 0»
+_______________
+
+## **Languages:**
+- Russian - Native
+- Belarussian -  Intermediate
+- English -  Pre-Intermediate
